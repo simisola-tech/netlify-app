@@ -1,0 +1,60 @@
+*,
+**::before,
+**::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-image: url(images/drive-download-20240925T141848Z-001/background.png); */
+    width: 100vw;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: grey;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a:hover{
+    color: black;
+}
+
+.img-section{
+    position: absolute;
+    height: 90%;
+    right: 70px;
+}
+
+
+
+/* button{
+    width: 200px;
+    height: 50px;
+    font-size: xx-large;
+    border-radius: 10px;
+    border-width: 3px;
+} */
